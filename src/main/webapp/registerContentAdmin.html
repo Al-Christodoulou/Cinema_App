@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Content Admin</title>
+    <link rel="stylesheet" href="cssFiles/navBar.css">
+    <link rel="stylesheet" href="cssFiles/formModify.css">
+    <link rel="stylesheet" href="cssFiles/css.css">
+</head>
+<body>
+  <ul class="navbar">
+    <li class="navbar"><a href="AdminMenu.html">Main page</a></li>
+    <li class="navbar"><a href="viewUsers.jsp">View all users</a></li>
+    <li class="navbar"><a href="searchUser.jsp">Search user</a></li>
+    <!--<li><a href="previewFilms.jsp">Create user</a></li>!-->
+    <li class="navbar"><a href="deleteUser.jsp">Delete user</a></li>
+    <li class="navbar"><a class="active" href="registerContentAdmin.html">Register content admin</a></li>
+    <li class="navbar"><a href="registerAdmin.jsp">Register admin</a></li>
+    <li class="navbar"><a href="updateUserData.jsp">Update user data</a></li>
+    <li style="float: right" class="navbar"><form method="get" action="logout"><input type="submit" value="Log out"></form></li>
+  </ul>
+  <div class="divBody">
+      <h1>Registration of a content admin</h1>
+      <div class="divForm">
+          <form class="Form" action="register">
+              <h2 class="h1Form">Registration form</h2>
+              <div class="fields">
+                  <label>name: </label>
+                  <input required type="text" name="name">
+              </div>
+              <div class="fields">
+                  <label>Username: </label>
+                  <input required type="text" name="username">
+              </div>
+              <div class="fields">
+                  <label>Password: </label>
+                  <input required type="password" name="password">
+              </div>
+              <div class="fields">
+                  <p>Confirm Password: </p>
+                  <input required type="password" name="confirmPassword">
+              </div>
+              <div class="fields">
+                  <input type="hidden" id="ContentAdminId" name="userType" value="Content admin">
+              </div>
+              <div class="fields">
+                  <input type="reset">
+                  <input type="submit">
+              </div>
+          </form>
+      </div>
+  </div>
+</body>
+</html>

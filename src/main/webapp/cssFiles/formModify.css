@@ -1,0 +1,65 @@
+.h1Form{
+    margin-top:0px;
+    background-color: #0059b3;
+    color: #f6f6f6;
+    height: 60px;
+    text-shadow: 2px 2px 20px;
+}
+
+.divForm{
+    display: block;
+    padding: 160px 750px;
+    width:400px;
+}
+
+.Form{
+    background-color: #f6f6f6;
+    color: #262626;
+    border: solid #000000 5px;
+    border-radius: 6px;
+}
+
+.fields{
+    display: block;
+    margin: 10px 40px;
+}
+
+.fields label{
+    margin-right: 200px;
+}
+
+.fields p{
+    margin-left: -120px;
+    margin-bottom: 10px;
+}
+
+.fields input{
+    display: block;
+    width:300px;
+    height:25px;
+    border-radius: 6px;
+    border: solid #000000 3px;
+    background-color: #d9d9d9;
+}
+
+.fields input[type="submit"]{
+    margin-top:15px;
+    margin-left:30px ;
+    display: inline-block;
+    width:135px;
+    height: 50px;
+    border-radius: 6px;
+    border: 3px solid #000;
+    background-color: #00802b;
+}
+
+.fields input[type="reset"]{
+    margin-top:15px;
+    margin-left:-5px;
+    display: inline-block;
+    width:135px;
+    height: 50px;
+    border-radius: 6px;
+    border: 3px solid #000;
+    background-color: #e62e00;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Create a film</title>
+		<link rel="stylesheet" href="cssFiles/css.css">
+		<link rel="stylesheet" href="cssFiles/navBar.css">
+	</head>
+	<body>
+		<ul class="navbar">
+			<li class="navbar"><a href="contentAdminMenu.html">Main page</a></li>
+			<li class="navbar"><a href="viewFilms.jsp">Preview films</a></li>
+			<li class="navbar"><a class="active" href="filmCreation.html">Insert film</a></li>
+			<li class="navbar"><a href="schedulePresentations.jsp">Schedule film</a></li>
+			<li class="navbar"><a href="editPresentation.jsp">Edit Scheduled film</a></li>
+			<li class="navbar"><a href="updateUserData.jsp">Update user data</a></li>
+			<li style="float: right" class="navbar"><form method="get" action="logout"><input type="submit" value="Log out"></form></li>
+		</ul>
+		<h1 style="text-decoration-line: underline;">New Film Creation</h1>
+		<div class="divBody">
+			<form action="FilmCreationServlet">
+				<h3>Film Title: <input type="text" name="title"></h3>
+				<h3>Film Category: <input type="text" name="category"></h3>
+				<h3>Film Description: <input type="text" name="description"></h3>
+				<input type="submit" value="Create!">
+			</form><br>
+		</div>
+	</body>
+</html>
